@@ -1,0 +1,32 @@
+cffi
+pyquaternion
+absl-py==1.0.0
+flax==0.5.0
+-f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+jax[cuda]==0.3.12
+ml-collections==0.1.0
+numpy==1.22.4
+optax==0.1.1
+distrax==0.1.2
+tensorflow==2.8.0
+tensorflow-datasets==4.5.2
+tqdm
+cloudpickle==2.0.0
+dill
+wandb==0.12.7
+scikit-image==0.19.2
+gcsfs==2022.02.0
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==1.10.2
+torchvision==0.11.3
+git+https://github.com/openai/CLIP.git
+dopamine-rl
+einops
+gym[atari,accept-rom-license]
+procgen
+transformers==4.19.4
+opencv-python-headless
+git+https://github.com/stepjam/PyRep.git
+git+https://github.com/stepjam/RLBench.git
+git+https://github.com/stepjam/YARR.git
+pyrender
