@@ -2,6 +2,8 @@
 
 This is a Jax implementation for the InstructRL method in the ICLR submission [Instruction-Following Agents with Jointly Pre-Trained Vision-Language Models](https://openreview.net/forum?id=U0jfsqmoV-4).
 
+![model archiecture](./pictures/model.jpg)
+
 This implementation has been tested on GPU and Google Cloud TPU and supports multi-host training with TPU Pods.
 
 The code supports the following methods and baselines
@@ -21,7 +23,7 @@ After installing dependencies, add this repo directory to your `PYTHONPATH` envi
 export PYTHONPATH="$PYTHONPATH:$(pwd)"
 ```
 
-## Running Experiments
+## Usage
 Experiments can be launched via the following commands.
 
 Training a policy transformer using pretrained multimodal MAE encoding
