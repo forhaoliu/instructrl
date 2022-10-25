@@ -1,15 +1,15 @@
 # InstructRL
 
-This is a Jax implementation for the InstructRL method in the ICLR submission [Instruction-Following Agents with Jointly Pre-Trained Vision-Language Models](https://openreview.net/forum?id=U0jfsqmoV-4).
+This is a Jax implementation for the *Instruct*RL method in the ICLR submission [Instruction-Following Agents with Jointly Pre-Trained Vision-Language Models](https://openreview.net/forum?id=U0jfsqmoV-4).
 
 ![model archiecture](./pictures/model.jpg)
 
 This implementation has been tested on GPU and Google Cloud TPU and supports multi-host training with TPU Pods.
 
 The code supports the following methods and baselines
-- Training transformer policy from scratch
-- Training transformer policy with pretrained OpenAI CLIP-VIT
-- Training transformer policy with pretrained multimodal MAE encoding
+- From scratch: Training transformer policy from scratch w/ and w/o instructions.
+- CLIP-RL: Training transformer policy with pretrained OpenAI CLIP-VIT w/ and w/o instructions.
+- *Instruct*RL: Training transformer policy with pretrained multimodal MAE encoding w/ and w/o instructions.
 
 ## Installation
 If this is on GPU, install CoppeliaSim with [coppeliasim script](./scripts/coppeliasim.sh), then install the dependencies with pip.
