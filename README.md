@@ -129,3 +129,5 @@ as HDF5 files and read them from cloud storage buckets.
 The HDF5 data contains images, states and actions.
 An example of data generation can be found in [collect_data script](./data/collect_data.py).
 
+## Acknowledgement
+The Multimodal MAE implementation is largely based on [m3ae](https://github.com/young-geng/m3ae_public) and the CLIP implementation is largely based on [scenic](https://github.com/google-research/scenic/tree/main/scenic/projects/baselines/clip).
